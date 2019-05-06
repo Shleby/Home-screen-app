@@ -44,7 +44,7 @@ class RegisterComp extends Component {
   are correctly filled out and then prints out the information. 
   After it clears the fields and resets the state variables.*/
   handleSubmit(e) {
-    if (this.validateForm()) {
+    if (this.validateForm) {
       alert(
         "Full Name: " +
           this.state.firstName +
