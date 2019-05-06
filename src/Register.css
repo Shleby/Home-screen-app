@@ -1,0 +1,78 @@
+.Register-logo {
+  animation: Register-logo-spin infinite 10s linear;
+  height: 95vmin;
+  pointer-events: none;
+}
+
+.Register-submit {
+  color: blue;
+  margin: 35px;
+  font-size: 25px;
+}
+
+.Register-header {
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  /*color and font*/
+  background-color: #712296;
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 255, 255);
+}
+
+.Register-container > div {
+  position: absolute;
+  color: black;
+  font-weight: 900;
+  top: 200px;
+  left: 350px;
+  width: 100px;
+  height: 100px;
+  font-size: 20px;
+}
+
+.Register-console {
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  color: #712296;
+  position: fixed;
+  top: 20px;
+  right: 10px;
+  width: 500px;
+  height: 300px;
+  padding: 10px 10px 10px 10px;
+}
+
+.Register-second-console {
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  position: fixed;
+  top: 325px;
+  right: 10px;
+  color: #712296;
+  width: 500px;
+  height: 300px;
+  padding: 10px 10px 10px 10px;
+}
+.Header2 {
+  color: black;
+}
+@keyframes Register-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
