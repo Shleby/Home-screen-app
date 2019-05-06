@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![App jpg](https://imgur.com/p8Bchk5)
+![App jpg](https://imgur.com/4DHBgCs)
 
 ## Author Notes:
 
