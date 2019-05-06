@@ -1,5 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![App jpg](https://imgur.com/p8Bchk5)
+
 ## Author Notes:
 
 This is a home screen application meant for giving the react app your first name, last name, age, and phone number. While being inputted, the react app will show you your current input on the top right-hand side of the screen. When you press the submit button it will send the user an alert, and after pressing ok, it will log you as an existing user and display your information on the bottom right-hand side of the screen. It will then clear the form so you may enter more information (repeating the previous process). The app will not allow you to enter an invalid age (less than 1 or greater than 120) as well as an invalid phone number (less than 10-digits).
